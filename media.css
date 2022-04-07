@@ -1,0 +1,572 @@
+@media screen and (max-width: 1290px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 728px;
+        margin: 0 auto 80px auto;
+    }
+
+    .header-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        margin: 20px 0 60px 0;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-location-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header-phone-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header-phone > a:first-child {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .header-phone > a:last-child {
+        display: block;
+        font-size: 10px;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+    .header-background {
+        width: 578px;
+        height: 628px;
+    }
+
+    .header-text > h1 {
+        font-size: 64px;
+        text-align: center;
+        text-align-last: center;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .header-text {
+        height: 628px;
+    }
+
+    .header-text > p {
+        margin-top: 60px;
+        width: 222px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .header-text > div > p {
+        width: 380px;
+        line-height: 24px;
+    }
+
+    .header-button {
+        margin: 0;
+    }
+
+    .about-school {
+        margin-bottom: 150px;
+    }
+
+    .about-school-image > img:first-of-type {
+        width: 354px;
+        height: 436px;
+    }
+
+    .about-school-image > img:last-of-type {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        margin: 360px 0 0 -230px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .about-school-text {
+        width: 357px;
+        line-height: 27px;
+        margin: 0;
+    }
+
+    .about-school-media-text {
+        margin: 40px 0 70px 0;
+        display: block;
+    }
+
+    .about-school-full-text {
+        display: none;
+    }
+
+    .about-school-text > img {
+        position: absolute;
+        margin: 5px 0 0 -75px;
+        width: 125px;
+        height: 16px;
+    }
+
+    .about-school-button {
+        padding: 15px 40px 15px 90px;
+    }
+
+    .trainer {
+        margin-top: 60px;
+    }
+
+    .trainer-one img {
+        width: 354px;
+        height: 310px;
+    }
+
+    .trainer-two-big {
+        display: none;
+    }
+
+    .trainer-two-media {
+        display: block;
+        width: 354px;
+        height: 310px;
+    }
+
+    .title-name {
+        font-size: 36px;
+        margin-top: -25px;
+    }
+
+    .trainer-one-description {
+        display: block;
+        width: 354px;
+        padding-top: 20px;
+    }
+
+    .trainer-two-description {
+        width: 354px;
+        padding-top: 20px;
+    }
+
+    .directions {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 60px auto 80px auto;
+        width: 768px;
+    }
+
+    .directions-title {
+        width: 728px;
+    }
+
+    .originally {
+        display: none;
+    }
+
+    .media {
+        display: block;
+        width: 384px;
+        height: 300px;
+    }
+
+    .fg-directions {
+        position: absolute;
+        font-size: 36px;
+        -webkit-text-stroke: 3px white;
+        width: 354px;
+    }
+
+    .subscription {
+        margin: 60px 0 60px 0;
+    }
+
+    .lasting {
+        width: 354px;
+        height: 401px;
+        margin-bottom: 20px;
+    }
+
+    .lasting > div {
+        margin: 20px;
+    }
+
+    .duration-of-classes {
+        margin-bottom: 30px;
+    }
+
+    .subscription-period {
+        font-size: 24px;
+    }
+
+    .specification {
+        width: 314px;
+        line-height: 21px;
+        margin-bottom: 60px;
+        font-size: 14px;
+    }
+
+    .price {
+        margin-bottom: 60px;
+    }
+
+    .sale {
+        font-size: 30px;;
+    }
+
+    .old-price {
+        font-size: 18px;
+    }
+
+    .button-subscription {
+        padding: 17px 82px;
+    }
+
+    .instagram {
+        margin: 60px 0 103px 0;
+    }
+
+    .instagram > a > img {
+        width: 354px;
+        height: 354px;
+    }
+
+    .instagram > a:last-child {
+        display: none;
+    }
+
+    .footer-left {
+        width: 354px;
+    }
+
+    .footer-description {
+        line-height: 24px;
+        margin-bottom: 65px;
+    }
+
+    .chapter {
+        display: none;
+    }
+
+    .contacts-address > p:first-of-type {
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom > div {
+        margin: 0;
+    }
+
+    .footer-bottom > div > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .line {
+        display: block;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 320px;
+        margin: 0 auto 60px auto;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .header-top-media {
+        display: block;
+        margin: 20px 0 35px 0;
+    }
+
+    .header-top-media-flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .header-phone-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-location {
+        justify-content: space-between;
+    }
+
+    .header-location-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-address {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .header-address > p {
+        margin: 0 0 5px 0;
+    }
+
+    .header-center {
+        margin-bottom: 34px;
+    }
+
+    .header-background {
+        width: 360px;
+        height: 392px;
+    }
+
+    .header-text {
+        height: 392px;
+    }
+
+    .header-text > h1 {
+        font-size: 44px;
+        line-height: 53px;
+        text-align-last: left;
+        text-align: left;
+        width: 320px;
+    }
+
+    .header-text > p {
+        margin-top: 9px;
+        width: 320px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+
+    .header-text > div {
+        display: block;
+    }
+
+    .header-text > div > p{
+        width: 320px;
+        margin: 0;
+        line-height: 21px;
+        padding-bottom: 23px;
+    }
+
+    .header-text > div > a {
+        display: none;
+    }
+
+    .header-button-media {
+        display: block;
+        margin-bottom: 97px;
+    }
+
+    .header-button {
+        padding: 17px 50px;
+    }
+
+    .about-school {
+        display: none;
+    }
+
+    .about-school-media {
+        display: block;
+    }
+
+    .about-school-image {
+        margin-bottom: 80px;
+    }
+
+    .about-school-image > img:first-of-type {
+        position: relative;
+        width: 320px;
+        height: 300px;
+    }
+
+    .about-school-image > img:last-of-type {
+        margin: 192px 0 0 -158px;
+    }
+
+    .about-school-media-text {
+        display: none;
+    }
+
+    .about-school-media-small-text {
+        display: block;
+        width: 320px;
+        margin-bottom: 40px;
+    }
+
+    .about-school-button-media {
+        display: none;
+    }
+
+    .trainer {
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .trainer-one {
+        margin-bottom: 40px;
+    }
+
+    .title-name {
+        font-size: 30px;
+        margin: -20px 0 0 0;
+    }
+
+    .trainer-description {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        width: 320px;
+    }
+
+    .trainer-one img {
+        width: 320px;
+        height: 280px;
+    }
+
+    .trainer-two-big {
+        width: 320px;
+        height: 280px;
+    }
+
+    .directions {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 360px;
+    }
+
+    .directions-title {
+        width: 320px;
+    }
+
+    .media {
+        display: block;
+        width: 360px;
+        height: 300px;
+    }
+
+    .fg-directions {
+        position: absolute;
+        font-size: 36px;
+        -webkit-text-stroke: 3px white;
+        width: 360px;
+    }
+
+    .lasting {
+        width: 320px;
+    }
+
+    .lasting > div {
+        margin: 20px;
+    }
+
+    .duration-of-classes {
+        margin-bottom: 30px;
+    }
+
+    .subscription-period {
+        font-size: 24px;
+    }
+
+    .specification {
+        width: 280px;
+    }
+
+    .button-subscription {
+        padding: 17px 71px;
+    }
+
+    .price {
+        margin-bottom: 47px;
+    }
+
+    .instagram {
+        margin-bottom: 40px;
+    }
+
+    .instagram > a > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .footer-logo-media {
+        width: 110px;
+        height: 110px;
+        margin: auto;
+    }
+
+    .footer-logo {
+        margin: auto;
+    }
+
+    .footer-left {
+        width: 320px;
+    }
+
+    .footer-description {
+        line-height: 21px;
+        margin-top: 26px;
+        margin-bottom: 0;
+    }
+
+    .social {
+        justify-content: space-between;
+        margin: 26px auto 40px auto;
+    }
+
+    .contacts-title {
+        display: none;
+    }
+
+    .footer-bottom {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .footer-bottom div:first-of-type {
+        display: none;
+    }
+
+    .footer-bottom > div > a {
+        font-size: 16px;
+    }
+}

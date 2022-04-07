@@ -1,0 +1,525 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: black;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto 150px auto;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    margin: 10px 0 30px 0;
+}
+
+.header-top-media {
+    display: none;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+}
+
+.header-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-location-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-address {
+    font-size: 16px;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-phone-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-phone {
+    display: inline-block;
+}
+
+.header-phone > a:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration: none;
+    color: white;
+}
+
+.header-phone > a:last-child {
+    display: block;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: white;
+    font-weight: normal;
+}
+
+.header-phone > a:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header-background {
+    width: 690px;
+    height: 750px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-text > h1 {
+    display: flex;
+    font-size: 72px;
+    font-weight: bold;
+    text-align-last: justify;
+    text-transform: uppercase;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 750px;
+    justify-content: space-between;
+}
+
+.header-text > p {
+    margin-top: 85px;
+    width: 330px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.header-text > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text > div > p{
+    width: 410px;
+    margin: 0;
+    line-height: 27px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background: #F9BA50;
+    border-radius: 0px 40px 40px 0px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #ff9d00;
+    transition: 500ms;
+}
+
+.header-button {
+    padding: 17px 40px;
+    margin-right: 111px;
+}
+
+.header-button-media {
+    display: none;
+}
+
+.header-button > img {
+    margin-right: 54px;
+}
+
+.about-school-media {
+    display: none;
+}
+
+.about-school {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 260px;
+}
+
+.about-school-image > img:first-of-type {
+    position: relative;
+    width: 650px;
+    height: 800px;
+}
+
+.about-school-image > img:last-of-type {
+    width: 384px;
+    height: 384px;
+    position: absolute;
+    border-radius: 210px;
+    border: 2px solid #FFFFFF;
+    padding: 18px;
+    margin: 500px 0 150px -415px;
+}
+
+.about-school-text {
+    width: 520px;
+    line-height: 31px;
+    margin-top: 100px;
+}
+
+.about-school-media-text {
+    display: none;
+}
+
+.about-school-media-small-text {
+    display: none;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.directions-title {
+    width: 1290px;
+}
+
+.about-school-full-text {
+    padding: 40px 0 85px 0;
+}
+
+.about-school-text > img {
+    position: absolute;
+    margin: 8px 0 0 -111px;
+    width: 177px;
+    height: 16px;
+}
+
+.about-school-button {
+    padding: 17px 80px;
+}
+
+.trainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.trainer-one img {
+    width: 630px;
+    height: 550px;
+}
+
+.trainer-two-big {
+    width: 630px;
+    height: 449px;
+}
+
+.trainer-two-media {
+    display: none;
+}
+
+.title-name {
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: -50px 0 0 0;
+}
+
+.first-name {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.trainer-one-description {
+    display: none;
+    margin: 0;
+    padding-top: 35px;
+
+}
+
+.trainer-two-description {
+    width: 630px;
+    margin: 0;
+    padding-top: 35px;
+}
+
+
+.directions {
+    display: flex;
+    margin: 100px auto 150px auto;
+}
+
+.bg-directions {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.media {
+    display: none;
+}
+
+.bg-directions:hover {
+    transform: scale(1.05);
+}
+
+.bg-directions > img {
+    position: relative;
+}
+
+.fg-directions {
+    position: absolute;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+
+.subscription {
+    margin: 100px 0 120px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lasting {
+    display: flex;
+    flex-direction: column;
+    background-color: #17171A;
+    width: 410px;
+    height: 540px;
+    margin-bottom: 30px;
+}
+
+.lasting:hover {
+    transform: scale(1.05);
+}
+
+.lasting > div {
+    margin: 30px;
+}
+
+.duration-of-classes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.duration-of-classes > p {
+    margin: 0;
+    padding: 0;
+}
+
+.subscription-period {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.number-of-classes {
+    font-size: 16px;
+}
+
+.specification {
+    width: 350px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+    align-items: flex-end;
+}
+
+.sale {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+.old-price {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    text-decoration: line-through;
+}
+
+.button-subscription {
+    padding: 17px 93.5px;
+}
+
+.button-subscription > img {
+    padding-right: 20px;
+}
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 0 120px 0;
+}
+
+.instagram > a > img {
+    width: 410px;
+    height: 410px;
+}
+
+.instagram > a {
+    margin-bottom: 30px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.instagram > a:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    position: relative;
+    margin-top: -51px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+}
+
+.footer-description {
+    line-height: 27px;
+    margin-bottom: 22px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-bottom: 40px;
+}
+
+.social > a:hover {
+    transform: scale(1.05);
+}
+
+.chapter {
+    display: flex;
+    flex-direction: column;
+}
+
+.chapter-title {
+    font-size: 20px;
+    margin-bottom: 63px;
+}
+
+.chapter-list > ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.chapter-list > ul > li {
+    margin-bottom: 30px;
+}
+
+.chapter-list > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.chapter-list > ul > li > a:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-title {
+    font-size: 20px;
+    margin-bottom: 63px;
+}
+
+.subsection {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #F9BA50;
+    margin-bottom: 15px;
+}
+
+.contacts-number > a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts-mail > a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts-address > p:first-of-type {
+    margin-bottom: 36px;
+}
+
+.indent {
+    margin-bottom: 30px;
+}
+
+.footer-left > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.line {
+    display: none;
+}
+
+.footer-bottom {
+    display: none;
+}
+
+
